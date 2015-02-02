@@ -1,0 +1,60 @@
+$lightGrey: #bbb;
+$grey: #5A5A5A;
+$darkGrey: #555;
+
+
+
+$brickRed: #820B14;
+$darkTeal: #0C3637;
+$orange: #EB4F09;
+$mustard: #B88E09;
+$deepPurple: #3F043C;
+$midnightBlue: #0E043D;
+$bgGrey:#F0F1F8;
+$notWhite: #f7f7f7;
+
+
+
+
+html, body {
+  margin: 20px;
+  background: $lightGrey;
+  font-family: 'Fanwood Text', serif;
+  color: $darkGrey;
+}
+
+  a:visited, a:link {
+    color: $darkGrey;
+      text-decoration: none;
+    }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active{
+    color: orange;
+      text-decoration: none;
+  }
+
+.header{
+  border-top: 1px solid $grey;
+  background: orange;
+  padding: 10px 40px;
+  margin: -30px -40px 10px -40px;
+	box-shadow: 0 3px 5px rgba(34, 25, 25, 0.7);
+}
+
+.container{
+  background: $notWhite;
+  padding: 15px;
+  border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 10px rgba(34, 25, 25, 0.3);
+}
+
+.logo{
+  float: right;
+  width: 250px;
+  opacity: 0.2;
+  margin: -20px 60px;
+}

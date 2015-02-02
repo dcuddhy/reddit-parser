@@ -1,3 +1,13 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'>
+<div class = "header">
+  <h2 id='title'>My Reddit Parser</h2>
+</div>
 
-{{outlet}}
+<div class = "container">
+  {{#link-to 'posts' 'emberjs'}}emberjs{{/link-to}}
+  {{#link-to 'posts' 'javascript'}}javascript{{/link-to}}<br>
+  <span class = "logo">
+    <img src= "http://www.stormfans.de/wp-content/uploads/2014/11/reddit-logo_news.png">
+  </span>
+  {{outlet}}
+</div>
